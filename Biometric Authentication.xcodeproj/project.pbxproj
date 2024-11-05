@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		75EDC6342CDAD898004BABBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EDC61B2CDAD896004BABBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EDC6222CDAD896004BABBE;
+			remoteInfo = "Biometric Authentication";
+		};
+		75EDC63E2CDAD898004BABBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75EDC61B2CDAD896004BABBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75EDC6222CDAD896004BABBE;
+			remoteInfo = "Biometric Authentication";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75EDC6232CDAD896004BABBE /* Biometric Authentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Biometric Authentication.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EDC6332CDAD898004BABBE /* Biometric AuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biometric AuthenticationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		75EDC63D2CDAD898004BABBE /* Biometric AuthenticationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Biometric AuthenticationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		75EDC6252CDAD896004BABBE /* Biometric Authentication */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Biometric Authentication";
+			sourceTree = "<group>";
+		};
+		75EDC6362CDAD898004BABBE /* Biometric AuthenticationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Biometric AuthenticationTests";
+			sourceTree = "<group>";
+		};
+		75EDC6402CDAD898004BABBE /* Biometric AuthenticationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Biometric AuthenticationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75EDC6202CDAD896004BABBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDC6302CDAD898004BABBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDC63A2CDAD898004BABBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75EDC61A2CDAD896004BABBE = {
+			isa = PBXGroup;
+			children = (
+				75EDC6252CDAD896004BABBE /* Biometric Authentication */,
+				75EDC6362CDAD898004BABBE /* Biometric AuthenticationTests */,
+				75EDC6402CDAD898004BABBE /* Biometric AuthenticationUITests */,
+				75EDC6242CDAD896004BABBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75EDC6242CDAD896004BABBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75EDC6232CDAD896004BABBE /* Biometric Authentication.app */,
+				75EDC6332CDAD898004BABBE /* Biometric AuthenticationTests.xctest */,
+				75EDC63D2CDAD898004BABBE /* Biometric AuthenticationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75EDC6222CDAD896004BABBE /* Biometric Authentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EDC6472CDAD898004BABBE /* Build configuration list for PBXNativeTarget "Biometric Authentication" */;
+			buildPhases = (
+				75EDC61F2CDAD896004BABBE /* Sources */,
+				75EDC6202CDAD896004BABBE /* Frameworks */,
+				75EDC6212CDAD896004BABBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				75EDC6252CDAD896004BABBE /* Biometric Authentication */,
+			);
+			name = "Biometric Authentication";
+			packageProductDependencies = (
+			);
+			productName = "Biometric Authentication";
+			productReference = 75EDC6232CDAD896004BABBE /* Biometric Authentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		75EDC6322CDAD898004BABBE /* Biometric AuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EDC64A2CDAD898004BABBE /* Build configuration list for PBXNativeTarget "Biometric AuthenticationTests" */;
+			buildPhases = (
+				75EDC62F2CDAD898004BABBE /* Sources */,
+				75EDC6302CDAD898004BABBE /* Frameworks */,
+				75EDC6312CDAD898004BABBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EDC6352CDAD898004BABBE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				75EDC6362CDAD898004BABBE /* Biometric AuthenticationTests */,
+			);
+			name = "Biometric AuthenticationTests";
+			packageProductDependencies = (
+			);
+			productName = "Biometric AuthenticationTests";
+			productReference = 75EDC6332CDAD898004BABBE /* Biometric AuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		75EDC63C2CDAD898004BABBE /* Biometric AuthenticationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75EDC64D2CDAD898004BABBE /* Build configuration list for PBXNativeTarget "Biometric AuthenticationUITests" */;
+			buildPhases = (
+				75EDC6392CDAD898004BABBE /* Sources */,
+				75EDC63A2CDAD898004BABBE /* Frameworks */,
+				75EDC63B2CDAD898004BABBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75EDC63F2CDAD898004BABBE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				75EDC6402CDAD898004BABBE /* Biometric AuthenticationUITests */,
+			);
+			name = "Biometric AuthenticationUITests";
+			packageProductDependencies = (
+			);
+			productName = "Biometric AuthenticationUITests";
+			productReference = 75EDC63D2CDAD898004BABBE /* Biometric AuthenticationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75EDC61B2CDAD896004BABBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					75EDC6222CDAD896004BABBE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					75EDC6322CDAD898004BABBE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 75EDC6222CDAD896004BABBE;
+					};
+					75EDC63C2CDAD898004BABBE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 75EDC6222CDAD896004BABBE;
+					};
+				};
+			};
+			buildConfigurationList = 75EDC61E2CDAD896004BABBE /* Build configuration list for PBXProject "Biometric Authentication" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75EDC61A2CDAD896004BABBE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 75EDC6242CDAD896004BABBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75EDC6222CDAD896004BABBE /* Biometric Authentication */,
+				75EDC6322CDAD898004BABBE /* Biometric AuthenticationTests */,
+				75EDC63C2CDAD898004BABBE /* Biometric AuthenticationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75EDC6212CDAD896004BABBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDC6312CDAD898004BABBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDC63B2CDAD898004BABBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75EDC61F2CDAD896004BABBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDC62F2CDAD898004BABBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75EDC6392CDAD898004BABBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75EDC6352CDAD898004BABBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EDC6222CDAD896004BABBE /* Biometric Authentication */;
+			targetProxy = 75EDC6342CDAD898004BABBE /* PBXContainerItemProxy */;
+		};
+		75EDC63F2CDAD898004BABBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75EDC6222CDAD896004BABBE /* Biometric Authentication */;
+			targetProxy = 75EDC63E2CDAD898004BABBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75EDC6452CDAD898004BABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75EDC6462CDAD898004BABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75EDC6482CDAD898004BABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Biometric Authentication/Preview Content\"";
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barixmen.Biometric-Authentication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75EDC6492CDAD898004BABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Biometric Authentication/Preview Content\"";
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barixmen.Biometric-Authentication";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75EDC64B2CDAD898004BABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barixmen.Biometric-AuthenticationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biometric Authentication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biometric Authentication";
+			};
+			name = Debug;
+		};
+		75EDC64C2CDAD898004BABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barixmen.Biometric-AuthenticationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Biometric Authentication.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Biometric Authentication";
+			};
+			name = Release;
+		};
+		75EDC64E2CDAD898004BABBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barixmen.Biometric-AuthenticationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Biometric Authentication";
+			};
+			name = Debug;
+		};
+		75EDC64F2CDAD898004BABBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WL3K4A7DH8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.barixmen.Biometric-AuthenticationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Biometric Authentication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75EDC61E2CDAD896004BABBE /* Build configuration list for PBXProject "Biometric Authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EDC6452CDAD898004BABBE /* Debug */,
+				75EDC6462CDAD898004BABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EDC6472CDAD898004BABBE /* Build configuration list for PBXNativeTarget "Biometric Authentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EDC6482CDAD898004BABBE /* Debug */,
+				75EDC6492CDAD898004BABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EDC64A2CDAD898004BABBE /* Build configuration list for PBXNativeTarget "Biometric AuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EDC64B2CDAD898004BABBE /* Debug */,
+				75EDC64C2CDAD898004BABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75EDC64D2CDAD898004BABBE /* Build configuration list for PBXNativeTarget "Biometric AuthenticationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75EDC64E2CDAD898004BABBE /* Debug */,
+				75EDC64F2CDAD898004BABBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75EDC61B2CDAD896004BABBE /* Project object */;
+}
