@@ -6,6 +6,8 @@
 //
 
 import SwiftUI
+import LocalAuthentication
+
 
 struct ContentView: View {
     @State private var isAuthenticated = false
@@ -24,7 +26,9 @@ struct ContentView: View {
                     .padding()
                 
                 Button {
-                    //
+                    Task{
+                        await authenticate()
+                    }
                 } label: {
                     Text("Authenticate")
                         .font(.title)
@@ -39,11 +43,32 @@ struct ContentView: View {
         .navigationTitle("Biometric Authentication")
         .alert("Authentication failed", isPresented: $showAlert) {
             Button("OK") {
-                // 
+                //
             }
         } message: {
             Text(alertMessage)
         }
+    }
+    
+    func authenticate() async {
+        let context = LAContext()
+        var error : NSError?
+         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error){
+             do {
+                 let success = try await context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Log in to your account")
+
+                 if success {
+                     isAuthenticated = true
+                 }
+                 
+             } catch {
+                 alertMessage = error.localizedDescription
+             }
+             
+         } else {
+             alertMessage = "Biometric verification is not available"
+                        showAlert = true
+         }
     }
 }
 
