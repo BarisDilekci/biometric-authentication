@@ -6,17 +6,13 @@
 //
 
 import SwiftUI
-import LocalAuthentication
-
 
 struct ContentView: View {
-    @State private var isAuthenticated = false
-    @State private var showAlert = false
-    @State private var alertMessage = "Authentication error"
+    @StateObject private var viewModel = AuthenticationViewModel()
     
     var body: some View {
         NavigationStack {
-            if isAuthenticated {
+            if viewModel.isAuthenticated {
                 Text("Welcome")
                     .font(.headline)
                     .padding()
@@ -26,8 +22,8 @@ struct ContentView: View {
                     .padding()
                 
                 Button {
-                    Task{
-                        await authenticate()
+                    Task {
+                        await viewModel.authenticate()
                     }
                 } label: {
                     Text("Authenticate")
@@ -41,34 +37,11 @@ struct ContentView: View {
             }
         }
         .navigationTitle("Biometric Authentication")
-        .alert("Authentication failed", isPresented: $showAlert) {
-            Button("OK") {
-                //
-            }
+        .alert("Authentication failed", isPresented: $viewModel.showAlert) {
+            Button("OK") { }
         } message: {
-            Text(alertMessage)
+            Text(viewModel.alertMessage)
         }
-    }
-    
-    func authenticate() async {
-        let context = LAContext()
-        var error : NSError?
-         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error){
-             do {
-                 let success = try await context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: "Log in to your account")
-
-                 if success {
-                     isAuthenticated = true
-                 }
-                 
-             } catch {
-                 alertMessage = error.localizedDescription
-             }
-             
-         } else {
-             alertMessage = "Biometric verification is not available"
-                        showAlert = true
-         }
     }
 }
 
