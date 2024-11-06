@@ -11,7 +11,7 @@ import SwiftUI
 struct Biometric_AuthenticationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AuthenticationView()
         }
     }
 }

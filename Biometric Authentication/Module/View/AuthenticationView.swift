@@ -7,8 +7,8 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @StateObject private var viewModel = AuthenticationViewModel()
+struct AuthenticationView: View {
+    @StateObject private var viewModel = AuthenticationViewModel.shared
     
     var body: some View {
         NavigationStack {
@@ -46,5 +46,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    AuthenticationView()
 }
